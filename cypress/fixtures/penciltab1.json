@@ -1,0 +1,12 @@
+[
+    {
+        "pencilpaths": [
+            "#app > div > div > main > div > div > div.v-card.v-theme--myCustomLightTheme.v-card--density-default.v-card--variant-elevated.mt-10.border.border-danger > div.v-card-text.py-5.px-5 > div > div > div.v-window-item.v-window-item--active > div.v-skeleton-loader.v-theme--myCustomLightTheme > div:nth-child(1) > div:nth-child(4) > div.v-row > div > div > div.v-row.text-left.ma-2.pa-0.align-center > div:nth-child(5) > button:nth-child(1)"
+        ]
+    },
+    {
+        "pencilpaths": [
+            "#app > div > div > main > div > div > div.v-card.v-theme--myCustomLightTheme.v-card--density-default.v-card--variant-elevated.mt-10.border.border-danger > div.v-card-text.py-5.px-5 > div > div > div.v-window-item.v-window-item--active > div.v-skeleton-loader.v-theme--myCustomLightTheme > div:nth-child(1) > div:nth-child(5) > div.v-row > div > div > div.v-row.text-left.ma-2.pa-0.align-center > div:nth-child(5) > button:nth-child(1)"
+        ]
+    }
+]
