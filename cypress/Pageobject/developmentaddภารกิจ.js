@@ -11,7 +11,7 @@ class developmentaddภารกิจ
     dropdown6='body > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(4) > div:nth-child(1)'
     add()
     {
-        cy.contains(' เพิ่มภารกิจ >> ').click();
+        cy.xpath('//*[@id="app"]/div/div/main/div/div/div[4]/div[3]/div/div/div[1]/div[1]/div[2]/div[4]/button').click();
         cy.get('#Tab1MissionNameInput').type('test1') 
     }
     adddropdown()

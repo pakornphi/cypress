@@ -1,13 +1,14 @@
 class devtab4
 {
-    เลือกภารกิจ='.v-list-item-title'
+    เลือกภารกิจ='body > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1)'
     เลือกเรื่องที่ต้องพัฒนา='.v-list-item-title'
     ความเห็นhrbp='#Tab4Input3'
 
     addภารกิจ()
     {
         cy.xpath('//*[@id="app"]/div/div/main/div/div/nav[7]/div/form/div/div[2]/div/div[7]/div/div/div/div').click()
-        .get(this.เลือกภารกิจ).click();
+        cy.wait(3000)
+        cy.xpath("//div[contains(text(),'เป้าหมายที่ 1 : ภารกิจที่ 3: test3')]").click();
     }
     addเรื่องที่ต้องพัฒนา()
     {
